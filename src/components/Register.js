@@ -123,7 +123,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate, Link } from 'react-router-dom';
-import "../styles/styles.css";
+import "../styles/styles.scss";
 
 const Register = () => {
   const [user, setUser] = useState({ name: '', email: '', phoneNo: '', password: '' });

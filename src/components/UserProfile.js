@@ -307,7 +307,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import defaultAvatar from '../assets/default-avatar.png'; // Default avatar
-import '../styles/styles.css';
+import '../styles/styles.scss';
 
 const UserProfile = () => {
   const [user, setUser] = useState(null);

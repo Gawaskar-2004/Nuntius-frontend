@@ -189,7 +189,7 @@ import React, { useState } from 'react';
 import api from "../api";  // Correct
 
 import { useNavigate, Link } from 'react-router-dom';
-import "../styles/styles.css"; // Add CSS styles for WhatsApp look
+import "../styles/styles.scss"; // Add CSS styles for WhatsApp look
 
 const Login = () => {
   const [credentials, setCredentials] = useState({ email: '', password: '' });
